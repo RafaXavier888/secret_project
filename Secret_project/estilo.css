@@ -1,14 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --cor-header: #C58E00;
+  --cor-fundo: #F2EC91;
+  --cor-rick: #30A2FF;
+  --cor-botao: #F2EAD3;
+  --branco-principal: #FFFFFF;
+
+  --fonte-primaria: 'Roboto', sans-serif;
+  --fonte-secundaria: 'Poppins', sans-serif;
+}
+
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--cor-header);
     padding: 20px;
     text-align: center;
   }
+
+  body {
+    font-family: var(--fonte-primaria);
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-fundo);
+  }
+
   h1 {
     margin: 0;
   }
