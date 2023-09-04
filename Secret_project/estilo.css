@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap');
 
 :root {
-  --cor-header: #C58E00;
-  --cor-fundo: #F2EC91;
-  --cor-rick: #30A2FF;
+  --cor-header: #FFFFFF;
+  --cor-fundo: #FFFFFF;
+  --cor-texto: #000000;
   --cor-botao: #F2EAD3;
   --branco-principal: #FFFFFF;
 
@@ -19,13 +19,13 @@
 
   .cabecalho__menu_link {
     display: grid;
+    color: var(--cor-texto);
     grid-template-columns: repeat(3, auto);
     list-style: none;
     padding: 0;
     margin: 0;
     font-size: 1.3rem;
     font-weight: 500;
-    color: var(--branco-principal);
     text-decoration: none;
     font-family: var(--fonte-primaria);
     position: relative;
@@ -54,6 +54,7 @@
     background-color: var(--cor-fundo);
   }
 
+
   h1 {
     margin: 0;
   }
@@ -75,28 +76,4 @@
     border: 1px solid #ccc;
     padding: 10px;
     text-align: center;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    display: inline-block;
-    margin: 0 10px;
-    }
-    
-  a {
-    color: #fff;
-    text-decoration: none;
   }
